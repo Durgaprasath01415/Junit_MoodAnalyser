@@ -6,6 +6,6 @@ public class MoodAnalyserTest {
     public void testMoodAnalysis() {
        MoodAnalyser moodAnalyser = new MoodAnalyser();
        String mood = moodAnalyser.analyserMood("This is a sad message");
-       Assert.assertTrue(mood , true);
+       Assert.assertEquals("SAD" , mood);
     }
 }
